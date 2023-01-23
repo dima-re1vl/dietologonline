@@ -66,7 +66,7 @@ li:not(:last-child) {
     margin: 22px 0 53px 0;
 }
 
-.intro-btn {
+.btn {
     border: 0;
     background-color: #fd576c;
     border-radius: 50px;
@@ -92,7 +92,7 @@ li:not(:last-child) {
     margin-bottom: 50px;
 }
 
-.grid {
+.problems-grid {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
     gap: 50px;
@@ -118,4 +118,40 @@ li:not(:last-child) {
 .icon {
     width: 50px;
     height: 50px;
+}
+
+/* best result section */
+
+.best-result {
+    margin: 150px;
+}
+
+.best-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-block {
+    margin-left: 100px;
+}
+
+.best-header {
+    font-weight: 800;
+    font-size: 30px;
+    color: #151519;
+}
+
+.best-description {
+    font-weight: 600;
+    font-size: 16px;
+    color: #151519;
+    margin: 15px 0;
+}
+
+.best-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #151519;
+    margin-bottom: 50px;
 }
