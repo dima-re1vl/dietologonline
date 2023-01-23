@@ -1,0 +1,43 @@
+@import url(default.css);
+
+/* header */
+
+header {
+    margin: 24px 100px;
+}
+
+.wrapper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-weight: 700;
+    color: #5DBD6D;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:not(:last-child) {
+    margin-right: 45px;
+}
+
+.nav-header ul{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav-btn {
+    border: 0;
+    background-color: #E6F9E6;
+    color: #5DBD6D;
+    padding: 9px 25px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+/* */
