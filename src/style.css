@@ -215,3 +215,50 @@ li:not(:last-child) {
 .how-list li:not(:last-child) {
     margin-bottom: 15px;
 }
+
+/* nutrion section */
+
+.nutrition {
+    margin: 100px 0;
+}
+
+.nutrion-main-header {
+    font-size: 30px;
+    font-weight: 800;
+    color: #151519;
+    margin-bottom: 50px;
+}
+
+.nutrion-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nutrion-block-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.nutrion-header {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #151519;
+}
+
+.nutrion-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #151519;
+}
+
+.nutrion-block-into:nth-child(1),
+.nutrion-block-into:nth-child(3) {
+    margin-right: 30px;
+}
+
+.nutrion-block-into:nth-child(1),
+.nutrion-block-into:nth-child(2) {
+    margin-bottom: 30px;
+}
+
