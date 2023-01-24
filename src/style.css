@@ -265,7 +265,7 @@ li:not(:last-child) {
 /* choose section */
 
 .choose {
-    margin: 120px 0;
+    margin: 200px 0;
 }
 
 .choose-wrapper {
@@ -382,4 +382,72 @@ li:not(:last-child) {
     font-weight: 400;
 }
 
+/* reviews section */
 
+.reviews {
+    margin: 200px 0;
+}
+
+.reviews-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.reviews-block {
+    width: 40%;
+}
+
+.reviews-info-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.reviews-block span {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.reviews-header {
+    font-weight: 800;
+    font-size: 30px;
+    color: #151519;
+    margin-bottom: 50px;
+}
+
+.reviews-photo {
+    margin-bottom: 30px;
+}
+
+.reviews-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #151519;
+}
+
+.reviews-text:first-of-type {
+    margin-bottom: 20px;
+}
+
+.reviews-text-1 {
+    margin-bottom: 50px;
+}
+
+.reviews-text-2 {
+    margin-bottom: 20px;
+}
+
+.reviews-date {
+    font-weight: 600;
+    font-size: 15px;
+    color: #777575;
+}
+
+.reviews-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: #777575;
+}
