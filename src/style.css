@@ -19,6 +19,7 @@ header {
 
 .nav-header li{
     list-style-type: none;
+    transition: color .09s linear;
 }
 
 .nav-header li:not(:last-child) {
@@ -74,6 +75,7 @@ header {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
+    transition: background-color .2s linear;
 }
 
 .intro-block-1 {
@@ -555,6 +557,7 @@ header {
 
 .nav-footer li{
     list-style-type: none;
+    transition: color .09s linear;
 }
 
 .nav-footer li:not(:last-child) {
@@ -567,4 +570,16 @@ header {
     justify-content: center;
     align-items: center;
     font-weight: 600;
+}
+
+/* hover and animation elements */
+
+.nav-header ul li:hover,
+.nav-footer ul li:hover {
+    color: #FD576C;
+    opacity: .9;
+}
+
+.main-btn:hover {
+    background-color: #f84ba2;
 }
