@@ -21,7 +21,7 @@ header {
     list-style-type: none;
 }
 
-li:not(:last-child) {
+.nav-header li:not(:last-child) {
     margin-right: 45px;
 }
 
@@ -544,4 +544,27 @@ li:not(:last-child) {
     padding: 0;
     font-weight: 600;
     font-size: 18px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    margin: 200px 0 20px 0;
+}
+
+.nav-footer li{
+    list-style-type: none;
+}
+
+.nav-footer li:not(:last-child) {
+    margin-right: 70px;
+}
+
+.nav-footer ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
